@@ -1,0 +1,91 @@
+body {
+    background: #efefef;
+    font-family:'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Date{
+    background: rgb(126, 209, 129);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 4px;
+}
+
+.PostList{
+    text-align: center;
+    background: rgb(126, 209, 129);
+    border-radius: 4px;
+    border: 1px  rgb(126, 209, 129);
+    padding: 8px;
+    margin-top: 8px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 8px;
+}
+
+.PostList2{
+    text-align: center;
+    background: rgb(74, 101, 199);
+    border-radius: 4px;
+    
+    padding: 8px;
+    margin-top: 8px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 8px;
+}
+
+
+
+.btn {
+    $background: rgb(74, 101, 199);
+    background: $background;
+    color: white;
+    padding: 6px;
+    margin: 4px;
+    border-radius: 4px;
+    border: 1px solid #3c287d;
+    cursor: pointer;
+    &:hover {
+        background: darken($background, 5%);
+    }
+    &:active {
+        background: darken($background, 10%);
+    }
+}
+
+.btn2 {
+    $background: rgb(74, 101, 199);
+    background: $background;
+    text-align: center;
+    color: white;
+    padding: 6px;
+    margin: 4px;
+    border-radius: 4px;
+    border: 1px solid #3c287d;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-right: 30%;
+    &:hover {
+        background: darken($background, 5%);
+    }
+    &:active {
+        background: darken($background, 10%);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
